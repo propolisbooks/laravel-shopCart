@@ -33,11 +33,9 @@ class UserController extends Controller
            'email'=>'required',
            'password'=>'required'
             ]);  
-      if(Auth::attempt([ 'email'=> $request->input('email'), 'password'=>$request->input('password')])){
+    
                return redirect()->route('user.profile');
-       }
-       
-               return redirect()->back();
+   
     }
     public function getProfile(){
 
