@@ -1,0 +1,15 @@
+.thumbnail img{
+	max-height: 250px;
+
+}
+.thumbnail .description{
+	color: green;
+	font-size: 16px;
+}
+.price{
+	font-size: 25px;
+	font-weight:bold;
+}
+.thumbnail .btn:nth-of-type(2){
+	margin-right: 29px;
+}
